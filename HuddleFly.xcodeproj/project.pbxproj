@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A8F86D1B752926003F150A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F8681B752926003F150A /* Default-568h@2x.png */; };
+		A7A8F86E1B752926003F150A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F8691B752926003F150A /* Default.png */; };
+		A7A8F86F1B752926003F150A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F86A1B752926003F150A /* Default@2x.png */; };
+		A7A8F8701B752926003F150A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F86B1B752926003F150A /* icon.png */; };
+		A7A8F8711B752926003F150A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F86C1B752926003F150A /* icon@2x.png */; };
+		A7A8F8761B754723003F150A /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F8751B754723003F150A /* SetupViewController.m */; };
+		A7A8F87A1B75475E003F150A /* WaitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F8791B75475E003F150A /* WaitViewController.m */; };
+		A7A8F87D1B754780003F150A /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F87C1B754780003F150A /* ConnectionViewController.m */; };
+		A7A8F8801B754797003F150A /* WifiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F87F1B754797003F150A /* WifiViewController.m */; };
+		A7A8F8831B7547B6003F150A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F8821B7547B6003F150A /* MainViewController.m */; };
+		A7A8F8861B75481B003F150A /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F8851B75481B003F150A /* SelectViewController.m */; };
+		A7A8F88C1B754853003F150A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F88B1B754853003F150A /* LoginViewController.m */; };
+		A7A8F88F1B754862003F150A /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F88E1B754862003F150A /* RegisterViewController.m */; };
+		A7A8F8921B75489A003F150A /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F8911B75489A003F150A /* ForgetViewController.m */; };
+		A7A8F8951B7548B1003F150A /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F8941B7548B1003F150A /* DeviceViewController.m */; };
+		A7A8F8981B7548DE003F150A /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8F8971B7548DE003F150A /* OptionViewController.m */; };
+		A7A8F89C1B754B87003F150A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F89A1B754B87003F150A /* bg.png */; };
+		A7A8F89D1B754B87003F150A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F89B1B754B87003F150A /* logo.png */; };
+		A7A8F8A11B754F27003F150A /* icon-before.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F89E1B754F27003F150A /* icon-before.png */; };
+		A7A8F8A21B754F27003F150A /* icon-exit.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F89F1B754F27003F150A /* icon-exit.png */; };
+		A7A8F8A31B754F27003F150A /* text-view-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F8A01B754F27003F150A /* text-view-empty.png */; };
+		A7A8F8A51B755677003F150A /* text-view-mid.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F8A41B755677003F150A /* text-view-mid.png */; };
+		A7A8F8A81B755840003F150A /* icon-check-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F8A61B755840003F150A /* icon-check-empty.png */; };
+		A7A8F8A91B755840003F150A /* icon-check.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F8A71B755840003F150A /* icon-check.png */; };
+		A7A8F8AB1B755E74003F150A /* text-view-huge.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F8AA1B755E74003F150A /* text-view-huge.png */; };
+		A7A8F8AD1B7565ED003F150A /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A8F8AC1B7565ED003F150A /* wifi.png */; };
+		A7C09E0D1B74A727007318C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C09E0C1B74A727007318C4 /* main.m */; };
+		A7C09E101B74A727007318C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C09E0F1B74A727007318C4 /* AppDelegate.m */; };
+		A7C09E161B74A727007318C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C09E141B74A727007318C4 /* Main.storyboard */; };
+		A7C09E181B74A727007318C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C09E171B74A727007318C4 /* Images.xcassets */; };
+		A7C09E1B1B74A727007318C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C09E191B74A727007318C4 /* LaunchScreen.xib */; };
+		A7C09E271B74A727007318C4 /* HuddleFlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C09E261B74A727007318C4 /* HuddleFlyTests.m */; };
+		A7F8B27C1B76050300E64106 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8B27B1B76050300E64106 /* MenuViewController.m */; };
+		A7F8B2801B7644D600E64106 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8B27F1B7644D600E64106 /* User.m */; };
+		A7F8B2861B7676F500E64106 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8B2851B7676F500E64106 /* LocationViewController.m */; };
+		A7F8B2891B76770600E64106 /* CommandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8B2881B76770600E64106 /* CommandsViewController.m */; };
+		A7F8B28C1B76A49600E64106 /* ComSelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8B28B1B76A49600E64106 /* ComSelViewController.m */; };
+		A7F8B28E1B76A5C000E64106 /* icon-exit-w.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F8B28D1B76A5C000E64106 /* icon-exit-w.png */; };
+		A7F8B2901B76B91100E64106 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7F8B28F1B76B91100E64106 /* GoogleService-Info.plist */; };
+		FAC63808C5AF2E6977999879 /* libPods-HuddleFly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D42149B1F519600B1107D49D /* libPods-HuddleFly.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7C09E211B74A727007318C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7C09DFF1B74A726007318C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C09E061B74A726007318C4;
+			remoteInfo = HuddleFly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D1E62EBE0873CE94F4ADC7B /* Pods-HuddleFly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuddleFly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuddleFly/Pods-HuddleFly.debug.xcconfig"; sourceTree = "<group>"; };
+		3B8E306BF362D1EB711DC65D /* Pods-HuddleFly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuddleFly.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuddleFly/Pods-HuddleFly.release.xcconfig"; sourceTree = "<group>"; };
+		A7A8F8681B752926003F150A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A7A8F8691B752926003F150A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A7A8F86A1B752926003F150A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A7A8F86B1B752926003F150A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A7A8F86C1B752926003F150A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		A7A8F8741B754723003F150A /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupViewController.h; path = Views/SetupViewController.h; sourceTree = "<group>"; };
+		A7A8F8751B754723003F150A /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupViewController.m; path = Views/SetupViewController.m; sourceTree = "<group>"; };
+		A7A8F8781B75475E003F150A /* WaitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaitViewController.h; path = Views/WaitViewController.h; sourceTree = "<group>"; };
+		A7A8F8791B75475E003F150A /* WaitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaitViewController.m; path = Views/WaitViewController.m; sourceTree = "<group>"; };
+		A7A8F87B1B754780003F150A /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionViewController.h; path = Views/ConnectionViewController.h; sourceTree = "<group>"; };
+		A7A8F87C1B754780003F150A /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionViewController.m; path = Views/ConnectionViewController.m; sourceTree = "<group>"; };
+		A7A8F87E1B754797003F150A /* WifiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WifiViewController.h; path = Views/WifiViewController.h; sourceTree = "<group>"; };
+		A7A8F87F1B754797003F150A /* WifiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WifiViewController.m; path = Views/WifiViewController.m; sourceTree = "<group>"; };
+		A7A8F8811B7547B6003F150A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Views/MainViewController.h; sourceTree = "<group>"; };
+		A7A8F8821B7547B6003F150A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Views/MainViewController.m; sourceTree = "<group>"; };
+		A7A8F8841B75481B003F150A /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectViewController.h; path = Views/SelectViewController.h; sourceTree = "<group>"; };
+		A7A8F8851B75481B003F150A /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectViewController.m; path = Views/SelectViewController.m; sourceTree = "<group>"; };
+		A7A8F88A1B754853003F150A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Views/LoginViewController.h; sourceTree = "<group>"; };
+		A7A8F88B1B754853003F150A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Views/LoginViewController.m; sourceTree = "<group>"; };
+		A7A8F88D1B754862003F150A /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = Views/RegisterViewController.h; sourceTree = "<group>"; };
+		A7A8F88E1B754862003F150A /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = Views/RegisterViewController.m; sourceTree = "<group>"; };
+		A7A8F8901B75489A003F150A /* ForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgetViewController.h; path = Views/ForgetViewController.h; sourceTree = "<group>"; };
+		A7A8F8911B75489A003F150A /* ForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgetViewController.m; path = Views/ForgetViewController.m; sourceTree = "<group>"; };
+		A7A8F8931B7548B1003F150A /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceViewController.h; path = Views/DeviceViewController.h; sourceTree = "<group>"; };
+		A7A8F8941B7548B1003F150A /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceViewController.m; path = Views/DeviceViewController.m; sourceTree = "<group>"; };
+		A7A8F8961B7548DE003F150A /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionViewController.h; path = Views/OptionViewController.h; sourceTree = "<group>"; };
+		A7A8F8971B7548DE003F150A /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionViewController.m; path = Views/OptionViewController.m; sourceTree = "<group>"; };
+		A7A8F89A1B754B87003F150A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Resources/bg.png; sourceTree = "<group>"; };
+		A7A8F89B1B754B87003F150A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resources/logo.png; sourceTree = "<group>"; };
+		A7A8F89E1B754F27003F150A /* icon-before.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-before.png"; path = "Resources/icon-before.png"; sourceTree = "<group>"; };
+		A7A8F89F1B754F27003F150A /* icon-exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-exit.png"; path = "Resources/icon-exit.png"; sourceTree = "<group>"; };
+		A7A8F8A01B754F27003F150A /* text-view-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text-view-empty.png"; path = "Resources/text-view-empty.png"; sourceTree = "<group>"; };
+		A7A8F8A41B755677003F150A /* text-view-mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text-view-mid.png"; path = "Resources/text-view-mid.png"; sourceTree = "<group>"; };
+		A7A8F8A61B755840003F150A /* icon-check-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-check-empty.png"; path = "Resources/icon-check-empty.png"; sourceTree = "<group>"; };
+		A7A8F8A71B755840003F150A /* icon-check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-check.png"; path = "Resources/icon-check.png"; sourceTree = "<group>"; };
+		A7A8F8AA1B755E74003F150A /* text-view-huge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text-view-huge.png"; path = "Resources/text-view-huge.png"; sourceTree = "<group>"; };
+		A7A8F8AC1B7565ED003F150A /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wifi.png; path = Resources/wifi.png; sourceTree = "<group>"; };
+		A7C09E071B74A726007318C4 /* HuddleFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuddleFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C09E0B1B74A727007318C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7C09E0C1B74A727007318C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7C09E0E1B74A727007318C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7C09E0F1B74A727007318C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7C09E151B74A727007318C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7C09E171B74A727007318C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7C09E1A1B74A727007318C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7C09E201B74A727007318C4 /* HuddleFlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuddleFlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C09E251B74A727007318C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7C09E261B74A727007318C4 /* HuddleFlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuddleFlyTests.m; sourceTree = "<group>"; };
+		A7F8B27A1B76050300E64106 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Views/MenuViewController.h; sourceTree = "<group>"; };
+		A7F8B27B1B76050300E64106 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Views/MenuViewController.m; sourceTree = "<group>"; };
+		A7F8B27E1B7644D600E64106 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User.h; sourceTree = "<group>"; };
+		A7F8B27F1B7644D600E64106 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User.m; sourceTree = "<group>"; };
+		A7F8B2841B7676F500E64106 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = Views/LocationViewController.h; sourceTree = "<group>"; };
+		A7F8B2851B7676F500E64106 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = Views/LocationViewController.m; sourceTree = "<group>"; };
+		A7F8B2871B76770600E64106 /* CommandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandsViewController.h; path = Views/CommandsViewController.h; sourceTree = "<group>"; };
+		A7F8B2881B76770600E64106 /* CommandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandsViewController.m; path = Views/CommandsViewController.m; sourceTree = "<group>"; };
+		A7F8B28A1B76A49600E64106 /* ComSelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComSelViewController.h; path = Views/ComSelViewController.h; sourceTree = "<group>"; };
+		A7F8B28B1B76A49600E64106 /* ComSelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComSelViewController.m; path = Views/ComSelViewController.m; sourceTree = "<group>"; };
+		A7F8B28D1B76A5C000E64106 /* icon-exit-w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-exit-w.png"; path = "Resources/icon-exit-w.png"; sourceTree = "<group>"; };
+		A7F8B28F1B76B91100E64106 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D42149B1F519600B1107D49D /* libPods-HuddleFly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HuddleFly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7C09E041B74A726007318C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC63808C5AF2E6977999879 /* libPods-HuddleFly.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C09E1D1B74A727007318C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		576E9D71DF4E871006E58EC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42149B1F519600B1107D49D /* libPods-HuddleFly.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A8F8771B75472B003F150A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7F8B2811B76766C00E64106 /* Log */,
+				A7F8B2821B76767C00E64106 /* Setup */,
+				A7F8B2831B76768400E64106 /* Preferrence */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A7A8F8991B754B53003F150A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7F8B28D1B76A5C000E64106 /* icon-exit-w.png */,
+				A7A8F8AC1B7565ED003F150A /* wifi.png */,
+				A7A8F8AA1B755E74003F150A /* text-view-huge.png */,
+				A7A8F8A61B755840003F150A /* icon-check-empty.png */,
+				A7A8F8A71B755840003F150A /* icon-check.png */,
+				A7A8F8A41B755677003F150A /* text-view-mid.png */,
+				A7A8F89E1B754F27003F150A /* icon-before.png */,
+				A7A8F89F1B754F27003F150A /* icon-exit.png */,
+				A7A8F8A01B754F27003F150A /* text-view-empty.png */,
+				A7A8F89A1B754B87003F150A /* bg.png */,
+				A7A8F89B1B754B87003F150A /* logo.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7C09DFE1B74A726007318C4 = {
+			isa = PBXGroup;
+			children = (
+				A7C09E091B74A726007318C4 /* HuddleFly */,
+				A7C09E231B74A727007318C4 /* HuddleFlyTests */,
+				A7C09E081B74A726007318C4 /* Products */,
+				B3E7B6CE10D5F039340DF73F /* Pods */,
+				576E9D71DF4E871006E58EC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7C09E081B74A726007318C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7C09E071B74A726007318C4 /* HuddleFly.app */,
+				A7C09E201B74A727007318C4 /* HuddleFlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7C09E091B74A726007318C4 /* HuddleFly */ = {
+			isa = PBXGroup;
+			children = (
+				A7F8B27D1B76449B00E64106 /* Model */,
+				A7A8F8771B75472B003F150A /* Views */,
+				A7C09E0E1B74A727007318C4 /* AppDelegate.h */,
+				A7C09E0F1B74A727007318C4 /* AppDelegate.m */,
+				A7C09E141B74A727007318C4 /* Main.storyboard */,
+				A7C09E171B74A727007318C4 /* Images.xcassets */,
+				A7C09E191B74A727007318C4 /* LaunchScreen.xib */,
+				A7A8F8991B754B53003F150A /* Resources */,
+				A7C09E0A1B74A727007318C4 /* Supporting Files */,
+			);
+			path = HuddleFly;
+			sourceTree = "<group>";
+		};
+		A7C09E0A1B74A727007318C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7F8B28F1B76B91100E64106 /* GoogleService-Info.plist */,
+				A7A8F8681B752926003F150A /* Default-568h@2x.png */,
+				A7A8F8691B752926003F150A /* Default.png */,
+				A7A8F86A1B752926003F150A /* Default@2x.png */,
+				A7A8F86B1B752926003F150A /* icon.png */,
+				A7A8F86C1B752926003F150A /* icon@2x.png */,
+				A7C09E0B1B74A727007318C4 /* Info.plist */,
+				A7C09E0C1B74A727007318C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7C09E231B74A727007318C4 /* HuddleFlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7C09E261B74A727007318C4 /* HuddleFlyTests.m */,
+				A7C09E241B74A727007318C4 /* Supporting Files */,
+			);
+			path = HuddleFlyTests;
+			sourceTree = "<group>";
+		};
+		A7C09E241B74A727007318C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7C09E251B74A727007318C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F8B27D1B76449B00E64106 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7F8B27E1B7644D600E64106 /* User.h */,
+				A7F8B27F1B7644D600E64106 /* User.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A7F8B2811B76766C00E64106 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				A7A8F8811B7547B6003F150A /* MainViewController.h */,
+				A7A8F8821B7547B6003F150A /* MainViewController.m */,
+				A7A8F8841B75481B003F150A /* SelectViewController.h */,
+				A7A8F8851B75481B003F150A /* SelectViewController.m */,
+				A7A8F88A1B754853003F150A /* LoginViewController.h */,
+				A7A8F88B1B754853003F150A /* LoginViewController.m */,
+				A7A8F88D1B754862003F150A /* RegisterViewController.h */,
+				A7A8F88E1B754862003F150A /* RegisterViewController.m */,
+				A7A8F8901B75489A003F150A /* ForgetViewController.h */,
+				A7A8F8911B75489A003F150A /* ForgetViewController.m */,
+			);
+			name = Log;
+			sourceTree = "<group>";
+		};
+		A7F8B2821B76767C00E64106 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				A7A8F8741B754723003F150A /* SetupViewController.h */,
+				A7A8F8751B754723003F150A /* SetupViewController.m */,
+				A7A8F8781B75475E003F150A /* WaitViewController.h */,
+				A7A8F8791B75475E003F150A /* WaitViewController.m */,
+				A7A8F87B1B754780003F150A /* ConnectionViewController.h */,
+				A7A8F87C1B754780003F150A /* ConnectionViewController.m */,
+				A7A8F87E1B754797003F150A /* WifiViewController.h */,
+				A7A8F87F1B754797003F150A /* WifiViewController.m */,
+			);
+			name = Setup;
+			sourceTree = "<group>";
+		};
+		A7F8B2831B76768400E64106 /* Preferrence */ = {
+			isa = PBXGroup;
+			children = (
+				A7F8B27A1B76050300E64106 /* MenuViewController.h */,
+				A7F8B27B1B76050300E64106 /* MenuViewController.m */,
+				A7A8F8961B7548DE003F150A /* OptionViewController.h */,
+				A7A8F8971B7548DE003F150A /* OptionViewController.m */,
+				A7A8F8931B7548B1003F150A /* DeviceViewController.h */,
+				A7A8F8941B7548B1003F150A /* DeviceViewController.m */,
+				A7F8B2841B7676F500E64106 /* LocationViewController.h */,
+				A7F8B2851B7676F500E64106 /* LocationViewController.m */,
+				A7F8B2871B76770600E64106 /* CommandsViewController.h */,
+				A7F8B2881B76770600E64106 /* CommandsViewController.m */,
+				A7F8B28A1B76A49600E64106 /* ComSelViewController.h */,
+				A7F8B28B1B76A49600E64106 /* ComSelViewController.m */,
+			);
+			name = Preferrence;
+			sourceTree = "<group>";
+		};
+		B3E7B6CE10D5F039340DF73F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D1E62EBE0873CE94F4ADC7B /* Pods-HuddleFly.debug.xcconfig */,
+				3B8E306BF362D1EB711DC65D /* Pods-HuddleFly.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7C09E061B74A726007318C4 /* HuddleFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C09E2A1B74A727007318C4 /* Build configuration list for PBXNativeTarget "HuddleFly" */;
+			buildPhases = (
+				3BA16510E370F0BE04F55B29 /* Check Pods Manifest.lock */,
+				A7C09E031B74A726007318C4 /* Sources */,
+				A7C09E041B74A726007318C4 /* Frameworks */,
+				A7C09E051B74A726007318C4 /* Resources */,
+				D3E0A7D5FCE81358540F5014 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuddleFly;
+			productName = HuddleFly;
+			productReference = A7C09E071B74A726007318C4 /* HuddleFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7C09E1F1B74A727007318C4 /* HuddleFlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C09E2D1B74A727007318C4 /* Build configuration list for PBXNativeTarget "HuddleFlyTests" */;
+			buildPhases = (
+				A7C09E1C1B74A727007318C4 /* Sources */,
+				A7C09E1D1B74A727007318C4 /* Frameworks */,
+				A7C09E1E1B74A727007318C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7C09E221B74A727007318C4 /* PBXTargetDependency */,
+			);
+			name = HuddleFlyTests;
+			productName = HuddleFlyTests;
+			productReference = A7C09E201B74A727007318C4 /* HuddleFlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7C09DFF1B74A726007318C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = XianA;
+				TargetAttributes = {
+					A7C09E061B74A726007318C4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A7C09E1F1B74A727007318C4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A7C09E061B74A726007318C4;
+					};
+				};
+			};
+			buildConfigurationList = A7C09E021B74A726007318C4 /* Build configuration list for PBXProject "HuddleFly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7C09DFE1B74A726007318C4;
+			productRefGroup = A7C09E081B74A726007318C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7C09E061B74A726007318C4 /* HuddleFly */,
+				A7C09E1F1B74A727007318C4 /* HuddleFlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7C09E051B74A726007318C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A8F8A51B755677003F150A /* text-view-mid.png in Resources */,
+				A7A8F86F1B752926003F150A /* Default@2x.png in Resources */,
+				A7A8F8AD1B7565ED003F150A /* wifi.png in Resources */,
+				A7A8F8711B752926003F150A /* icon@2x.png in Resources */,
+				A7A8F89C1B754B87003F150A /* bg.png in Resources */,
+				A7A8F8A11B754F27003F150A /* icon-before.png in Resources */,
+				A7A8F8A91B755840003F150A /* icon-check.png in Resources */,
+				A7A8F8A21B754F27003F150A /* icon-exit.png in Resources */,
+				A7A8F8701B752926003F150A /* icon.png in Resources */,
+				A7C09E161B74A727007318C4 /* Main.storyboard in Resources */,
+				A7A8F86D1B752926003F150A /* Default-568h@2x.png in Resources */,
+				A7F8B28E1B76A5C000E64106 /* icon-exit-w.png in Resources */,
+				A7A8F8A81B755840003F150A /* icon-check-empty.png in Resources */,
+				A7A8F89D1B754B87003F150A /* logo.png in Resources */,
+				A7C09E1B1B74A727007318C4 /* LaunchScreen.xib in Resources */,
+				A7A8F8A31B754F27003F150A /* text-view-empty.png in Resources */,
+				A7C09E181B74A727007318C4 /* Images.xcassets in Resources */,
+				A7F8B2901B76B91100E64106 /* GoogleService-Info.plist in Resources */,
+				A7A8F86E1B752926003F150A /* Default.png in Resources */,
+				A7A8F8AB1B755E74003F150A /* text-view-huge.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C09E1E1B74A727007318C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA16510E370F0BE04F55B29 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E0A7D5FCE81358540F5014 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuddleFly/Pods-HuddleFly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7C09E031B74A726007318C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F8B2801B7644D600E64106 /* User.m in Sources */,
+				A7A8F88F1B754862003F150A /* RegisterViewController.m in Sources */,
+				A7A8F8861B75481B003F150A /* SelectViewController.m in Sources */,
+				A7A8F8761B754723003F150A /* SetupViewController.m in Sources */,
+				A7A8F87A1B75475E003F150A /* WaitViewController.m in Sources */,
+				A7F8B27C1B76050300E64106 /* MenuViewController.m in Sources */,
+				A7A8F87D1B754780003F150A /* ConnectionViewController.m in Sources */,
+				A7A8F8951B7548B1003F150A /* DeviceViewController.m in Sources */,
+				A7A8F88C1B754853003F150A /* LoginViewController.m in Sources */,
+				A7F8B2891B76770600E64106 /* CommandsViewController.m in Sources */,
+				A7A8F8981B7548DE003F150A /* OptionViewController.m in Sources */,
+				A7A8F8831B7547B6003F150A /* MainViewController.m in Sources */,
+				A7F8B2861B7676F500E64106 /* LocationViewController.m in Sources */,
+				A7F8B28C1B76A49600E64106 /* ComSelViewController.m in Sources */,
+				A7A8F8921B75489A003F150A /* ForgetViewController.m in Sources */,
+				A7A8F8801B754797003F150A /* WifiViewController.m in Sources */,
+				A7C09E101B74A727007318C4 /* AppDelegate.m in Sources */,
+				A7C09E0D1B74A727007318C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C09E1C1B74A727007318C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C09E271B74A727007318C4 /* HuddleFlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7C09E221B74A727007318C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7C09E061B74A726007318C4 /* HuddleFly */;
+			targetProxy = A7C09E211B74A727007318C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7C09E141B74A727007318C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C09E151B74A727007318C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7C09E191B74A727007318C4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C09E1A1B74A727007318C4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7C09E281B74A727007318C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7C09E291B74A727007318C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7C09E2B1B74A727007318C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1E62EBE0873CE94F4ADC7B /* Pods-HuddleFly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HuddleFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7C09E2C1B74A727007318C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8E306BF362D1EB711DC65D /* Pods-HuddleFly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HuddleFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7C09E2E1B74A727007318C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HuddleFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuddleFly.app/HuddleFly";
+			};
+			name = Debug;
+		};
+		A7C09E2F1B74A727007318C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HuddleFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuddleFly.app/HuddleFly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7C09E021B74A726007318C4 /* Build configuration list for PBXProject "HuddleFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C09E281B74A727007318C4 /* Debug */,
+				A7C09E291B74A727007318C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C09E2A1B74A727007318C4 /* Build configuration list for PBXNativeTarget "HuddleFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C09E2B1B74A727007318C4 /* Debug */,
+				A7C09E2C1B74A727007318C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C09E2D1B74A727007318C4 /* Build configuration list for PBXNativeTarget "HuddleFlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C09E2E1B74A727007318C4 /* Debug */,
+				A7C09E2F1B74A727007318C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7C09DFF1B74A726007318C4 /* Project object */;
+}
